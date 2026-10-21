@@ -1,0 +1,29 @@
+name: remoteSensing
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-image
+  - scikit-learn
+  - opencv
+  - pillow
+  - tifffile
+  - rasterio
+  - gdal
+  - geopandas
+  - shapely
+  - pyproj
+  - xarray
+  - rioxarray
+  - netcdf4
+  - h5py
+  - spectral
+  - earthpy
