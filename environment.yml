@@ -1,29 +1,50 @@
-name: remoteSensing
+
+    
+  
+name: physics
 channels:
   - conda-forge
-  - nodefaults
+  - defaults
 dependencies:
-  - python=3.12
-  - jupyterlab
-  - ipykernel
+  # Python
+  - python>=3.11,<3.14
+  - pip
+
+  # Numerical computing
   - numpy
   - scipy
-  - pandas
+  - mpmath
+
+  # Plotting and visualization
   - matplotlib
   - seaborn
-  - scikit-image
-  - scikit-learn
-  - opencv
-  - pillow
-  - tifffile
-  - rasterio
-  - gdal
-  - geopandas
-  - shapely
-  - pyproj
+  - plotly
+
+  # Symbolic mathematics
+  - sympy
+
+  # Data analysis
+  - pandas
   - xarray
-  - rioxarray
-  - netcdf4
+
+  # Jupyter and interactive work
+  - jupyterlab
+  - notebook
+  - ipython
+  - ipykernel
+
+  # Physics and scientific utilities
+  - astropy
+  - uncertainties
+  - lmfit
   - h5py
-  - spectral
-  - earthpy
+
+  # Optimization, statistics, and machine learning
+  - scikit-learn
+  - statsmodels
+
+  # Useful developer / workflow tools
+  - tqdm
+  - numba
+  - joblib
+
